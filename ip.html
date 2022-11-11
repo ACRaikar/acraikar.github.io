@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>EE 598 - Individual Problem</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							
+							<span class="image fit"><img src="images/ipbgm.jpg" alt="" /></span>
+							
+                            <div class="content">
+								<div class="inner" align="Justify">
+									<h2><center>EE 598 - Individual Problem</center></h2>
+									<p > 
+										Individual Problem is an intriguing course option offered by the UB
+										curriculum where students can take part in research projects under the
+										guidance of professors. What a great concept! As soon as I learned
+										about this opportunity, I sent Dr. Filippo Malandra, one of my
+										professors whom I admire and wanted to work with, a cold email to see
+										if there were any projects I might participate in to gain some research
+										experience. After a week, Dr. Malandra finally offered to discuss my
+										interests and guided me to choose one of several fascinating ongoing
+										projects to work on. That is how my work with Dr. Malandra began in
+										the Fall 2021.
+									</p>
+									<p>
+										I was delighted to be a part of a research project. We developed an
+										LTE-enabled Micro Phasor Measurement Unit(μPMU) and tried to
+										analyze the performance of the Narrow Band IoT network. A phasor
+										Measurement Unit (PMU) is a device that estimates the magnitude and
+										phase of an electrical quantity in an electricity grid using a common
+										time source for synchronization. PMU enables real-time monitoring of
+										an electrical grid and helps in detecting disturbances in the power grid.
+										A Phasor Data Concentrator (PDC) was deployed which aggregates the
+										phasor data streamed from multiple PMUs for enhanced post-event
+										analysis.
+									</p>
+									<p>
+										In our project, we developed a low-cost, low-complex μPMU using an
+										ARM cortex microcontroller. Network Time Protocol was used for the
+										time synchronization across the system. Several μPMU's were
+										deployed and each one relayed its phasor data along with a timestamp
+										to the PDC through User Datagram Protocol. PDC was placed on a
+										Linux system using Amazon Elastic Compute Cloud service. Multiple
+										tests were conducted simultaneously for the delay analysis. Based on
+										the difference between the phasor's timestamp and the arrival time at
+										PDC, we examined the delay involved in the network. We were able to
+										achieve a delay of less than 200ms. We carried out some post-processing 
+										at PDC to calculate Inter-arrival delay and plotted
+										histograms. Below are some of the pictures from the analysis:
+
+                                        <br>
+										<center> <span class="images"> <img src="images/IP 1.jpg" alt="" data-position="center center" /></span></center>
+										<p> <center> Fig. 1: Packet transmission over LTE cat-M </center></p>
+										<center> <span class="images"> <img src="images/IP 2.png" alt="" data-position="top center" /></span></center> 
+										<p><center> Fig. 2: Delay Analysis </center></p>
+										
+									</p>
+									<p>
+										Individual problem introduced me to the realm of research at the
+										University at Buffalo. We worked in a team and had constant feedback
+										from the Professor. We learned to work as a cohesive unit and to
+										collaborate in accomplishing the tasks. There were some disagreements
+										among the team members that were resolved by discussing viewpoints
+										and taking action to find common ground. I am glad that I took this
+										course and would suggest everyone make use of this wonderful
+										prospect that the University is offering.
+									</p>
+									<h>References:</h>
+									<p>
+										[1] [2] : Wireless Networks 4 Smart Systems Lab (WN4SS, 2021)
+									</p>
+								</div>
+							</div>
+
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Akshay C Raikar</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
